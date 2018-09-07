@@ -28,7 +28,7 @@ TODO: this is a audio player sdk
   s.source           = { :git => 'https://github.com/xufengbj/XFAudioPlayer.git', :tag => s.version.to_s }
   s.social_media_url = 'http://blog.csdn.net/hanhailong18?viewmode=contents'
 
-  s.ios.deployment_target = '7.0'
+  s.ios.deployment_target = '8.0'
 
   s.source_files = 'XFAudioPlayer/*.{h,m}'
   

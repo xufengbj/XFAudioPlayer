@@ -11,7 +11,7 @@ s.name = 'XFAudioPlayer's.version = '0.1.0'
 s.license = 'MIT'
 s.summary = '音频SDK'
 s.homepage = 'https://github.com/xufengbj/XFAudioPlayer'
-s.authors = { 'mcmore' => 'ljcoder@163.com' }
+s.authors = { 'xufeng' => 'xfncwu@163.com' }
 s.source = { :git => "https://github.com/xufengbj/XFAudioPlayer.git", :tag => "0.1.0"}
 s.requires_arc = trues.ios.deployment_target = '8.0'
 s.source_files = "XFAudioPlayer/*.{h,m}"

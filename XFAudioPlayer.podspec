@@ -30,7 +30,7 @@ TODO: this is a tool to help you to handle the push or pop between Viewcontrolle
   s.homepage     = 'https://github.com/xufengbj/XFAudioPlayer'
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.author       = { 'xufeng" => 'xfncwu@163.com' }
+  s.author       = { "xufeng" => "xfncwu@163.com" }
   s.source       = { :git => "https://github.com/xufengbj/XFAudioPlayer.git", :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.source_files  = "XFAudioPlayer/Classes/**/*"

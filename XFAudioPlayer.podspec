@@ -24,7 +24,7 @@ TODO: this is a audio player sdk
   s.homepage         = 'https://github.com/xufengbj/XFAudioPlayer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'xufeng' => 'xfncwu@163.com' }
+  s.author           = { 'xufeng' => '1192936115@qq.com' }
   s.source           = { :git => 'https://github.com/xufengbj/XFAudioPlayer.git', :tag => s.version.to_s }
   s.social_media_url = 'http://blog.csdn.net/hanhailong18?viewmode=contents'
 

@@ -17,18 +17,23 @@ Pod::Spec.new do |s|
 
   s.name         = 'XFAudioPlayer'
   s.version      = '0.1.0'
-  s.summary      = 'XFAudioPlayer.音频播放器'
+  s.summary      = 'this is a audio player framework'
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+   s.description      = <<-DESC
+TODO: this is a tool to help you to handle the push or pop between Viewcontrollers with your specified URL
+                       DESC
   s.homepage     = 'https://github.com/xufengbj/XFAudioPlayer'
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
+  s.author             = { 'xufeng" => 'xfncwu@163.com' }
+  s.source       = { :git => 'https://github.com/xufengbj/XFAudioPlayer.git', :tag => s.version.to_s }
+  s.ios.deployment_target = '8.0'
+  s.source_files  = 'XFAudioPlayer/Classes/**/*'
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -37,7 +42,6 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = { :type => 'MIT', :file => 'LICENSE' }
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -51,7 +55,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "xufeng" => "xfncwu@163.com" }
+  
   # Or just: s.author    = "许锋"
   # s.authors            = { "许锋" => "1192936115@qq.com" }
   # s.social_media_url   = "http://twitter.com/许锋"
@@ -64,7 +68,7 @@ Pod::Spec.new do |s|
 
   # s.platform     = :ios
   # s.platform     = :ios, "5.0"
-  s.ios.deployment_target = '8.0'
+  
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -79,7 +83,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/xufengbj/XFAudioPlayer.git", :tag => s.version.to_s }
+  
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,8 +94,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  
 
   # s.public_header_files = "Classes/**/*.h"
 

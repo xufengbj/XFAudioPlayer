@@ -30,7 +30,7 @@ TODO: this is a audio player sdk
 
   s.ios.deployment_target = '7.0'
 
-  #s.source_files = 'XFAudioPlayer/*.{h,m}'
+  s.source_files = 'XFAudioPlayer/*.{h,m}'
   
   # s.resource_bundles = {
   #   'JKRouter' => ['JKRouter/Assets/*.png']

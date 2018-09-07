@@ -25,12 +25,13 @@
 @implementation XFHomeListCell
 
 - (void)configWithModel:(XFHomeListModel *)model {
+    __weak typeof(self) weakSelf = self;
     _courseIcon.backgroundColor = [UIColor redColor];
     [_courseIcon sd_setImageWithURL:[NSURL URLWithString:model.imgUrl] placeholderImage:nil options:SDWebImageRetryFailed progress:^(NSInteger receivedSize, NSInteger expectedSize, NSURL * _Nullable targetURL) {
     } completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
-        _courseIcon.alpha = 0;
+        weakSelf.courseIcon.alpha = 0;
         [UIView animateWithDuration:0.5 animations:^{
-            _courseIcon.alpha = 1;
+            weakSelf.courseIcon.alpha = 1;
         }];
     }];
     _courseName.text = model.courseName;
